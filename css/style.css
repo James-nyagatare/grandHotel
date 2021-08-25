@@ -208,3 +208,74 @@ body{
 }
 /* end of navigation */
 /* end of navbar */
+
+/* header */
+.header{
+    margin-left: 8rem;
+    background: linear-gradient(to top, rgb(0,0,0,.5), rgb(0,0,0,.6)), url(../img/header-1.jpeg) center no-repeat;
+    height: 100vh;
+}
+
+.page-header{
+    display: flex;
+    font-family:'Josefin Sans', sans-serif;
+}
+
+.page-heading{
+    margin-top: 3rem;
+    color: #deaa86;
+    font-weight: 400;
+    font-size: 2.7rem;
+    letter-spacing: .2rem;
+}
+
+.header-barner{
+    color: #ddd;
+    display: flex;
+    height: 65rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.barner-header{
+    font-size: 7rem;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 0;
+    font-weight: 400;
+    animation: anim 2s;
+}
+
+.barner-text{
+    font-size: 3rem;
+    font-weight: 380;
+    animation: anim 1.5s 0.5s backwards;
+}
+
+.barner-btn{
+    border-radius: 10rem;
+    padding: 1rem 6rem;
+    color: #555;
+    font-size: 2rem;
+    background: linear-gradient(to right, gold, goldenrod);
+    outline: none;
+    cursor: pointer;
+    animation: anim 1s 1s backwards;
+}
+.barner-btn:hover{
+    background: linear-gradient(to left, gold, goldenrod);
+}
+
+.barner-btn:active{
+    transform: translateX(.2rem);
+}
+
+@keyframes anim{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 100;
+    }
+}
+/* end of header */
