@@ -275,7 +275,110 @@ body{
         opacity: 0;
     }
     100%{
-        opacity: 100;
+        opacity: 1;
     }
 }
 /* end of header */
+
+/* about us */
+.about-us{
+    margin-left: 8rem;
+    display: flex;
+    background-color: #ddd;
+}
+
+.aboutus-content{
+    flex: 0 1 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 8rem;
+    box-sizing: border-box;
+}
+
+.top-header{
+    font-size: 4rem;
+    color: #555;
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+}
+
+.small-line{
+    width: 9rem;
+    height: .1rem;
+    margin: 0 auto 1rem auto;
+    background-color: #b85d1c;
+}
+
+.big-line{
+    width: 20rem;
+    height: .1rem;
+    background-color: #b85d1c;
+}
+
+.bottom-header{
+    color: #b85d1c;
+    font-size: 3.5rem;
+    font-weight: 300;
+}
+
+.aboutus-description{
+    text-align: center;
+    font-size: 1.6rem;
+    font-style: italic;
+    font-weight: 300;
+    margin-bottom: 5rem;
+    letter-spacing: .1rem;
+}
+
+.about-us-btn{
+    background-color: transparent;
+    border:1px solid #b85d1c;
+    color: #b85d1c;
+    padding: 0.7rem 0.5rem;
+    width: 15rem;
+    text-transform: uppercase;
+}
+
+.read-more-btn{
+    margin-left: .2rem;
+    transition: all .3s;
+}
+
+.about-us-btn:hover{
+    cursor: pointer;
+}
+.about-us-btn:hover .read-more-btn{
+    margin-left: 1rem;
+}
+.aboutus-image{
+    flex: 1 1;
+    position: relative;
+}
+
+.image{
+    position: absolute;
+    width: 32rem;
+    top: 50%;
+    left: 50%;
+    box-shadow: 0 3rem 6rem rgba(0,0,0,.4);
+    border-radius: .4rem;
+    border: .2rem solid #b85d1c;
+}
+
+.image-1{
+    transform: translate(-20%, -90%);
+}
+.image-2{
+    transform: translate(-70%, -70%);
+}
+.image-3{
+    transform: translate(-50%, -50%);
+
+}
+.image-4{
+    transform: translate(-30%, -30%);
+}
+/* end of about us */
