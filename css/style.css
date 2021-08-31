@@ -315,6 +315,7 @@ body{
 .big-line{
     width: 20rem;
     height: .1rem;
+    margin: auto;
     background-color: #b85d1c;
 }
 
@@ -382,3 +383,91 @@ body{
     transform: translate(-30%, -30%);
 }
 /* end of about us */
+
+/* rooms */
+.room-section{
+    margin-left: 8rem;
+}
+
+.common-header{
+    padding: 5rem;
+    text-align: center;
+    color: #b85d1c;
+}
+
+.common-heading{
+    font-weight: 300;
+    font-size: 4rem;
+    letter-spacing: .2rem;
+}
+.rooms-card-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.room-card{
+    width: 60rem;
+    background-color: #15141b;
+    margin: 5rem;
+    box-shadow: 0 3rem 6rem rgba(0 , 0, 0, .3);
+}
+
+.room-card img{
+    width: 100%;
+}
+
+.room-card-content{
+    color: #ddd;
+    padding: 2rem;
+}
+
+.room-card-heading{
+    font-size: 3rem;
+    font-weight: 300;
+    margin: 0;
+}
+
+.room-card-description{
+    font-size: 1.5rem;
+    color: #777;
+}
+
+.room-price{
+    text-align: right;
+    font-size: 4.7rem;
+    margin: 0;
+}
+
+.room-card-btn{
+  padding: 1.5rem 2.8rem;
+  border-radius: 10rem;
+  background-color: transparent;
+  color: #b85d1c;
+  border: .1rem solid #b85d1c;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.room-btn{
+    text-align: center;
+   
+}
+
+.room-section-btn{
+    background-color: transparent;
+    border:1px solid #b85d1c;
+    color: #b85d1c;
+    padding: 1rem 1.5rem;
+    width: 20rem;
+    text-transform: uppercase;
+    margin: 2.5rem;
+    box-shadow: 0 3rem 6rem rgba(0 , 0, 0, .3);
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.room-section-btn:hover{
+    color: #ddd;
+    background-color: #b85d1c;
+}
+/* end of rooms */
